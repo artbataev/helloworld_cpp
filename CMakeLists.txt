@@ -6,6 +6,8 @@ find_package(Boost COMPONENTS unit_test_framework REQUIRED)
 
 configure_file(version.h.in version.h)
 
+include_directories(${CMAKE_BINARY_DIR})
+
 add_executable(helloworld_cli main.cpp)
 
 add_library(helloworld lib.cpp)
@@ -40,7 +42,7 @@ set(CPACK_PACKAGE_VERSION_MAJOR "${PROJECT_VERSION_MAJOR}")
 set(CPACK_PACKAGE_VERSION_MINOR "${PROJECT_VERSION_MINOR}")
 set(CPACK_PACKAGE_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
 
-set(CPACK_PACKAGE_CONTACT otus.cpp@gmail.com)
+set(CPACK_PACKAGE_CONTACT artbataev@gmail.com)
 
 include(CPack)
 
