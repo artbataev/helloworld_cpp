@@ -1,7 +1,6 @@
-# Hello World C++ Project with ~~blackjack~~ Continuous Integration and Continuous Delivery
+# Hello World C++ Project with ~~blackjack~~ CI/CD
 
-| **Build** |
-| ![Build](https://travis-ci.org/artbataev/helloworld_cpp.svg?branch=master) |
+![Build](https://travis-ci.org/artbataev/helloworld_cpp.svg?branch=master)
 
 ## Otus C++ course Assignment 1
 
